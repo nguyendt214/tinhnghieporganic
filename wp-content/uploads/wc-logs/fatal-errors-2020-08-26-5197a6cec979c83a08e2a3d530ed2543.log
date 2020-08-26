@@ -1,0 +1,20 @@
+2020-08-26T09:33:19+00:00 CRITICAL Uncaught Exception: Illegal widget setting ID: nav_menu_item[] in /home/ndotr/projects/tinhnghieporganic/wp-includes/customize/class-wp-customize-nav-menu-item-setting.php:171
+Stack trace:
+#0 /home/ndotr/projects/tinhnghieporganic/wp-includes/class-wp-customize-nav-menus.php(816): WP_Customize_Nav_Menu_Item_Setting->__construct(Object(WP_Customize_Manager), 'nav_menu_item[]', Array)
+#1 /home/ndotr/projects/tinhnghieporganic/wp-includes/class-wp-hook.php(287): WP_Customize_Nav_Menus->customize_register(Object(WP_Customize_Manager))
+#2 /home/ndotr/projects/tinhnghieporganic/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 /home/ndotr/projects/tinhnghieporganic/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /home/ndotr/projects/tinhnghieporganic/wp-includes/class-wp-customize-manager.php(933): do_action('customize_regis...', Object(WP_Customize_Manager))
+#5 /home/ndotr/projects/tinhnghieporganic/wp-includes/class-wp-hook.php(287): WP_Customize_Manager->wp_loaded('')
+#6 /home/ in /home/ndotr/projects/tinhnghieporganic/wp-includes/customize/class-wp-customize-nav-menu-item-setting.php on line 171
+
+2020-08-26T09:33:20+00:00 CRITICAL Uncaught Exception: Illegal widget setting ID: nav_menu_item[] in /home/ndotr/projects/tinhnghieporganic/wp-includes/customize/class-wp-customize-nav-menu-item-setting.php:171
+Stack trace:
+#0 /home/ndotr/projects/tinhnghieporganic/wp-includes/class-wp-customize-nav-menus.php(816): WP_Customize_Nav_Menu_Item_Setting->__construct(Object(WP_Customize_Manager), 'nav_menu_item[]', Array)
+#1 /home/ndotr/projects/tinhnghieporganic/wp-includes/class-wp-hook.php(287): WP_Customize_Nav_Menus->customize_register(Object(WP_Customize_Manager))
+#2 /home/ndotr/projects/tinhnghieporganic/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 /home/ndotr/projects/tinhnghieporganic/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /home/ndotr/projects/tinhnghieporganic/wp-includes/class-wp-customize-manager.php(933): do_action('customize_regis...', Object(WP_Customize_Manager))
+#5 /home/ndotr/projects/tinhnghieporganic/wp-includes/class-wp-hook.php(287): WP_Customize_Manager->wp_loaded('')
+#6 /home/ in /home/ndotr/projects/tinhnghieporganic/wp-includes/customize/class-wp-customize-nav-menu-item-setting.php on line 171
+

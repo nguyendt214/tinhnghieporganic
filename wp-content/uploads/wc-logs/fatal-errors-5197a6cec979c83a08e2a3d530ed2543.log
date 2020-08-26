@@ -1,0 +1,187 @@
+2018-05-24T12:34:15+00:00 CRITICAL Uncaught phpmailerException: Invalid address:  (setFrom)  in /home/donam.giaodienwebmau.com/public_html/wp-includes/class-phpmailer.php:1023
+Stack trace:
+#0 /home/donam.giaodienwebmau.com/public_html/wp-content/plugins/muahangnhanh/dinhhien_web79.php(152): PHPMailer->setFrom('', 'Demo website th...')
+#1 /home/donam.giaodienwebmau.com/public_html/wp-includes/class-wp-hook.php(286): myphpmailer(Object(PHPMailer))
+#2 /home/donam.giaodienwebmau.com/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/donam.giaodienwebmau.com/public_html/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#4 /home/donam.giaodienwebmau.com/public_html/wp-includes/pluggable.php(477): do_action_ref_array('phpmailer_init', Array)
+#5 /home/donam.giaodienwebmau.com/public_html/wp-admin/includes/class-wp-automatic-updater.php(760): wp_mail(Array, '[Demo website t...', 'Xin ch\xC3\xA0o! Tran...', Array)
+#6 /home/donam.giaodienwebmau.com/public_html/wp-admin/includes/class-wp-automatic-updater.php(4
+
+2018-06-06T07:18:06+00:00 CRITICAL Uncaught phpmailerException: Invalid address:  (setFrom)  in /home/donam.giaodienwebmau.com/public_html/wp-includes/class-phpmailer.php:1023
+Stack trace:
+#0 /home/donam.giaodienwebmau.com/public_html/wp-content/plugins/muahangnhanh/dinhhien_web79.php(152): PHPMailer->setFrom('', 'Demo website th...')
+#1 /home/donam.giaodienwebmau.com/public_html/wp-includes/class-wp-hook.php(286): myphpmailer(Object(PHPMailer))
+#2 /home/donam.giaodienwebmau.com/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/donam.giaodienwebmau.com/public_html/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#4 /home/donam.giaodienwebmau.com/public_html/wp-includes/pluggable.php(477): do_action_ref_array('phpmailer_init', Array)
+#5 /home/donam.giaodienwebmau.com/public_html/wp-includes/user.php(1928): wp_mail(Array, '[Demo website t...', 'Ch\xC3\xA0o admin,\n\nT...', Array)
+#6 /home/donam.giaodienwebmau.com/public_html/wp-admin/includes/user.php(197): wp_update_user(Array)
+#7 /home/donam.giaod
+
+2018-07-06T13:12:16+00:00 CRITICAL Uncaught phpmailerException: Invalid address:  (setFrom)  in /home/donam.giaodienwebmau.com/public_html/wp-includes/class-phpmailer.php:1023
+Stack trace:
+#0 /home/donam.giaodienwebmau.com/public_html/wp-content/plugins/muahangnhanh/dinhhien_web79.php(152): PHPMailer->setFrom('', 'Demo website th...')
+#1 /home/donam.giaodienwebmau.com/public_html/wp-includes/class-wp-hook.php(286): myphpmailer(Object(PHPMailer))
+#2 /home/donam.giaodienwebmau.com/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/donam.giaodienwebmau.com/public_html/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#4 /home/donam.giaodienwebmau.com/public_html/wp-includes/pluggable.php(477): do_action_ref_array('phpmailer_init', Array)
+#5 /home/donam.giaodienwebmau.com/public_html/wp-admin/includes/class-wp-automatic-updater.php(760): wp_mail(Array, '[Demo website t...', 'Xin ch\xC3\xA0o! Tran...', Array)
+#6 /home/donam.giaodienwebmau.com/public_html/wp-admin/includes/class-wp-automatic-updater.php(4
+
+2018-07-09T19:35:18+07:00 CRITICAL Uncaught phpmailerException: Invalid address:  (setFrom)  in /home/donam.giaodienwebmau.com/public_html/wp-includes/class-phpmailer.php:1023
+Stack trace:
+#0 /home/donam.giaodienwebmau.com/public_html/wp-content/plugins/muahangnhanh/dinhhien_web79.php(152): PHPMailer->setFrom('', 'Demo website th...')
+#1 /home/donam.giaodienwebmau.com/public_html/wp-includes/class-wp-hook.php(286): myphpmailer(Object(PHPMailer))
+#2 /home/donam.giaodienwebmau.com/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/donam.giaodienwebmau.com/public_html/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#4 /home/donam.giaodienwebmau.com/public_html/wp-includes/pluggable.php(477): do_action_ref_array('phpmailer_init', Array)
+#5 /home/donam.giaodienwebmau.com/public_html/wp-content/plugins/muahangnhanh/sendmail.php(80): wp_mail(Array, '\xC4\x90\xC6\xA1n \xC4\x91\xE1\xBA\xB7t h\xC3...', '<table style='b...', Array)
+#6 {main}
+  thrown
+
+2018-07-09T19:35:20+07:00 CRITICAL Uncaught phpmailerException: Invalid address:  (setFrom)  in /home/donam.giaodienwebmau.com/public_html/wp-includes/class-phpmailer.php:1023
+Stack trace:
+#0 /home/donam.giaodienwebmau.com/public_html/wp-content/plugins/muahangnhanh/dinhhien_web79.php(152): PHPMailer->setFrom('', 'Demo website th...')
+#1 /home/donam.giaodienwebmau.com/public_html/wp-includes/class-wp-hook.php(286): myphpmailer(Object(PHPMailer))
+#2 /home/donam.giaodienwebmau.com/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/donam.giaodienwebmau.com/public_html/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#4 /home/donam.giaodienwebmau.com/public_html/wp-includes/pluggable.php(477): do_action_ref_array('phpmailer_init', Array)
+#5 /home/donam.giaodienwebmau.com/public_html/wp-content/plugins/muahangnhanh/sendmail.php(80): wp_mail(Array, '\xC4\x90\xC6\xA1n \xC4\x91\xE1\xBA\xB7t h\xC3...', '<table style='b...', Array)
+#6 {main}
+  thrown
+
+2018-07-09T19:35:20+07:00 CRITICAL Uncaught phpmailerException: Invalid address:  (setFrom)  in /home/donam.giaodienwebmau.com/public_html/wp-includes/class-phpmailer.php:1023
+Stack trace:
+#0 /home/donam.giaodienwebmau.com/public_html/wp-content/plugins/muahangnhanh/dinhhien_web79.php(152): PHPMailer->setFrom('', 'Demo website th...')
+#1 /home/donam.giaodienwebmau.com/public_html/wp-includes/class-wp-hook.php(286): myphpmailer(Object(PHPMailer))
+#2 /home/donam.giaodienwebmau.com/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/donam.giaodienwebmau.com/public_html/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#4 /home/donam.giaodienwebmau.com/public_html/wp-includes/pluggable.php(477): do_action_ref_array('phpmailer_init', Array)
+#5 /home/donam.giaodienwebmau.com/public_html/wp-content/plugins/muahangnhanh/sendmail.php(80): wp_mail(Array, '\xC4\x90\xC6\xA1n \xC4\x91\xE1\xBA\xB7t h\xC3...', '<table style='b...', Array)
+#6 {main}
+  thrown
+
+2018-07-09T19:35:21+07:00 CRITICAL Uncaught phpmailerException: Invalid address:  (setFrom)  in /home/donam.giaodienwebmau.com/public_html/wp-includes/class-phpmailer.php:1023
+Stack trace:
+#0 /home/donam.giaodienwebmau.com/public_html/wp-content/plugins/muahangnhanh/dinhhien_web79.php(152): PHPMailer->setFrom('', 'Demo website th...')
+#1 /home/donam.giaodienwebmau.com/public_html/wp-includes/class-wp-hook.php(286): myphpmailer(Object(PHPMailer))
+#2 /home/donam.giaodienwebmau.com/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/donam.giaodienwebmau.com/public_html/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#4 /home/donam.giaodienwebmau.com/public_html/wp-includes/pluggable.php(477): do_action_ref_array('phpmailer_init', Array)
+#5 /home/donam.giaodienwebmau.com/public_html/wp-content/plugins/muahangnhanh/sendmail.php(80): wp_mail(Array, '\xC4\x90\xC6\xA1n \xC4\x91\xE1\xBA\xB7t h\xC3...', '<table style='b...', Array)
+#6 {main}
+  thrown
+
+2018-07-09T19:35:21+07:00 CRITICAL Uncaught phpmailerException: Invalid address:  (setFrom)  in /home/donam.giaodienwebmau.com/public_html/wp-includes/class-phpmailer.php:1023
+Stack trace:
+#0 /home/donam.giaodienwebmau.com/public_html/wp-content/plugins/muahangnhanh/dinhhien_web79.php(152): PHPMailer->setFrom('', 'Demo website th...')
+#1 /home/donam.giaodienwebmau.com/public_html/wp-includes/class-wp-hook.php(286): myphpmailer(Object(PHPMailer))
+#2 /home/donam.giaodienwebmau.com/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/donam.giaodienwebmau.com/public_html/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#4 /home/donam.giaodienwebmau.com/public_html/wp-includes/pluggable.php(477): do_action_ref_array('phpmailer_init', Array)
+#5 /home/donam.giaodienwebmau.com/public_html/wp-content/plugins/muahangnhanh/sendmail.php(80): wp_mail(Array, '\xC4\x90\xC6\xA1n \xC4\x91\xE1\xBA\xB7t h\xC3...', '<table style='b...', Array)
+#6 {main}
+  thrown
+
+2018-07-09T19:35:21+07:00 CRITICAL Uncaught phpmailerException: Invalid address:  (setFrom)  in /home/donam.giaodienwebmau.com/public_html/wp-includes/class-phpmailer.php:1023
+Stack trace:
+#0 /home/donam.giaodienwebmau.com/public_html/wp-content/plugins/muahangnhanh/dinhhien_web79.php(152): PHPMailer->setFrom('', 'Demo website th...')
+#1 /home/donam.giaodienwebmau.com/public_html/wp-includes/class-wp-hook.php(286): myphpmailer(Object(PHPMailer))
+#2 /home/donam.giaodienwebmau.com/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/donam.giaodienwebmau.com/public_html/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#4 /home/donam.giaodienwebmau.com/public_html/wp-includes/pluggable.php(477): do_action_ref_array('phpmailer_init', Array)
+#5 /home/donam.giaodienwebmau.com/public_html/wp-content/plugins/muahangnhanh/sendmail.php(80): wp_mail(Array, '\xC4\x90\xC6\xA1n \xC4\x91\xE1\xBA\xB7t h\xC3...', '<table style='b...', Array)
+#6 {main}
+  thrown
+
+2018-08-03T11:20:43+00:00 CRITICAL Uncaught phpmailerException: Invalid address:  (setFrom)  in /home/donam.giaodienwebmau.com/public_html/wp-includes/class-phpmailer.php:1023
+Stack trace:
+#0 /home/donam.giaodienwebmau.com/public_html/wp-content/plugins/muahangnhanh/dinhhien_web79.php(152): PHPMailer->setFrom('', 'Demo website th...')
+#1 /home/donam.giaodienwebmau.com/public_html/wp-includes/class-wp-hook.php(286): myphpmailer(Object(PHPMailer))
+#2 /home/donam.giaodienwebmau.com/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/donam.giaodienwebmau.com/public_html/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#4 /home/donam.giaodienwebmau.com/public_html/wp-includes/pluggable.php(477): do_action_ref_array('phpmailer_init', Array)
+#5 /home/donam.giaodienwebmau.com/public_html/wp-admin/includes/class-wp-automatic-updater.php(760): wp_mail(Array, '[Demo website t...', 'Xin ch\xC3\xA0o! Tran...', Array)
+#6 /home/donam.giaodienwebmau.com/public_html/wp-admin/includes/class-wp-automatic-updater.php(4
+
+2020-08-20T02:36:21+00:00 CRITICAL Uncaught phpmailerException: Invalid address:  (setFrom)  in /home/ndotr/projects/tinhnghieporganic/wp-includes/class-phpmailer.php:1023
+Stack trace:
+#0 /home/ndotr/projects/tinhnghieporganic/wp-content/plugins/muahangnhanh/dinhhien_web79.php(152): PHPMailer->setFrom('', 'T\xE1\xBB\x8Bnh Nghi\xE1\xBB\x87p...')
+#1 /home/ndotr/projects/tinhnghieporganic/wp-includes/class-wp-hook.php(286): myphpmailer(Object(PHPMailer))
+#2 /home/ndotr/projects/tinhnghieporganic/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/ndotr/projects/tinhnghieporganic/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#4 /home/ndotr/projects/tinhnghieporganic/wp-includes/pluggable.php(477): do_action_ref_array('phpmailer_init', Array)
+#5 /home/ndotr/projects/tinhnghieporganic/wp-admin/includes/class-wp-automatic-updater.php(760): wp_mail(Array, '[T\xE1\xBB\x8Bnh Nghi\xE1\xBB\x87...', 'Xin ch\xC3\xA0o! Tran...', Array)
+#6 /home/ndotr/projects/tinhnghieporganic/wp-admin/includes/class-wp-automatic-updater.p
+
+2020-08-20T03:45:27+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to myphpmailer() must be an instance of PHPMailer, instance of PHPMailer\PHPMailer\PHPMailer given, called in /home/ndotr/projects/tinhnghieporganic/wp-includes/class-wp-hook.php on line 287 and defined in /home/ndotr/projects/tinhnghieporganic/wp-content/plugins/muahangnhanh/dinhhien_web79.php:136
+Stack trace:
+#0 /home/ndotr/projects/tinhnghieporganic/wp-includes/class-wp-hook.php(287): myphpmailer(Object(PHPMailer\PHPMailer\PHPMailer))
+#1 /home/ndotr/projects/tinhnghieporganic/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/ndotr/projects/tinhnghieporganic/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#3 /home/ndotr/projects/tinhnghieporganic/wp-includes/pluggable.php(494): do_action_ref_array('phpmailer_init', Array)
+#4 /home/ndotr/projects/tinhnghieporganic/wp-content/plugins/wpml-translation-management/classes/emails/report/class-wpml-tm-batch-report-email-process.php(44): wp_mail(Array, 'Job waiting for...', '<html xmlns="ht..
+
+2020-08-21T13:38:11+00:00 CRITICAL Uncaught Error: Call to a member function get_original_product_id() on null in /home/ndotr/projects/tinhnghieporganic/wp-content/plugins/woocommerce-multilingual/inc/currencies/class-wcml-custom-prices.php:68
+Stack trace:
+#0 /home/ndotr/projects/tinhnghieporganic/wp-content/plugins/woocommerce-multilingual/inc/currencies/class-wcml-multi-currency-prices.php(235): WCML_Custom_Prices->get_product_custom_prices(472, NULL)
+#1 /home/ndotr/projects/tinhnghieporganic/wp-includes/class-wp-hook.php(289): WCML_Multi_Currency_Prices->product_price_filter(NULL, 472, '_regular_price', true)
+#2 /home/ndotr/projects/tinhnghieporganic/wp-includes/plugin.php(206): WP_Hook->apply_filters(NULL, Array)
+#3 /home/ndotr/projects/tinhnghieporganic/wp-includes/meta.php(564): apply_filters('get_post_metada...', NULL, 472, '_regular_price', true, 'post')
+#4 /home/ndotr/projects/tinhnghieporganic/wp-includes/meta.php(506): get_metadata_raw('post', 472, '_regular_price', true)
+#5 /home/ndotr/projects/tinhnghieporganic/wp-includes/post.ph
+
+2020-08-21T13:38:16+00:00 CRITICAL Uncaught Error: Call to a member function get_original_product_id() on null in /home/ndotr/projects/tinhnghieporganic/wp-content/plugins/woocommerce-multilingual/inc/currencies/class-wcml-custom-prices.php:68
+Stack trace:
+#0 /home/ndotr/projects/tinhnghieporganic/wp-content/plugins/woocommerce-multilingual/inc/currencies/class-wcml-multi-currency-prices.php(235): WCML_Custom_Prices->get_product_custom_prices(472, NULL)
+#1 /home/ndotr/projects/tinhnghieporganic/wp-includes/class-wp-hook.php(289): WCML_Multi_Currency_Prices->product_price_filter(NULL, 472, '_regular_price', true)
+#2 /home/ndotr/projects/tinhnghieporganic/wp-includes/plugin.php(206): WP_Hook->apply_filters(NULL, Array)
+#3 /home/ndotr/projects/tinhnghieporganic/wp-includes/meta.php(564): apply_filters('get_post_metada...', NULL, 472, '_regular_price', true, 'post')
+#4 /home/ndotr/projects/tinhnghieporganic/wp-includes/meta.php(506): get_metadata_raw('post', 472, '_regular_price', true)
+#5 /home/ndotr/projects/tinhnghieporganic/wp-includes/post.ph
+
+2020-08-21T13:39:16+00:00 CRITICAL Uncaught Error: Call to a member function get_original_product_id() on null in /home/ndotr/projects/tinhnghieporganic/wp-content/plugins/woocommerce-multilingual/inc/currencies/class-wcml-custom-prices.php:68
+Stack trace:
+#0 /home/ndotr/projects/tinhnghieporganic/wp-content/plugins/woocommerce-multilingual/inc/currencies/class-wcml-multi-currency-prices.php(235): WCML_Custom_Prices->get_product_custom_prices(472, NULL)
+#1 /home/ndotr/projects/tinhnghieporganic/wp-includes/class-wp-hook.php(289): WCML_Multi_Currency_Prices->product_price_filter(NULL, 472, '_regular_price', true)
+#2 /home/ndotr/projects/tinhnghieporganic/wp-includes/plugin.php(206): WP_Hook->apply_filters(NULL, Array)
+#3 /home/ndotr/projects/tinhnghieporganic/wp-includes/meta.php(564): apply_filters('get_post_metada...', NULL, 472, '_regular_price', true, 'post')
+#4 /home/ndotr/projects/tinhnghieporganic/wp-includes/meta.php(506): get_metadata_raw('post', 472, '_regular_price', true)
+#5 /home/ndotr/projects/tinhnghieporganic/wp-includes/post.ph
+
+2020-08-21T13:39:30+00:00 CRITICAL Uncaught Error: Call to a member function get_original_product_id() on null in /home/ndotr/projects/tinhnghieporganic/wp-content/plugins/woocommerce-multilingual/inc/currencies/class-wcml-custom-prices.php:68
+Stack trace:
+#0 /home/ndotr/projects/tinhnghieporganic/wp-content/plugins/woocommerce-multilingual/inc/currencies/class-wcml-multi-currency-prices.php(235): WCML_Custom_Prices->get_product_custom_prices(472, NULL)
+#1 /home/ndotr/projects/tinhnghieporganic/wp-includes/class-wp-hook.php(289): WCML_Multi_Currency_Prices->product_price_filter(NULL, 472, '_regular_price', true)
+#2 /home/ndotr/projects/tinhnghieporganic/wp-includes/plugin.php(206): WP_Hook->apply_filters(NULL, Array)
+#3 /home/ndotr/projects/tinhnghieporganic/wp-includes/meta.php(564): apply_filters('get_post_metada...', NULL, 472, '_regular_price', true, 'post')
+#4 /home/ndotr/projects/tinhnghieporganic/wp-includes/meta.php(506): get_metadata_raw('post', 472, '_regular_price', true)
+#5 /home/ndotr/projects/tinhnghieporganic/wp-includes/post.ph
+
+2020-08-25T02:49:01+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to myphpmailer() must be an instance of PHPMailer, instance of PHPMailer\PHPMailer\PHPMailer given, called in /home/ndotr/projects/tinhnghieporganic/wp-includes/class-wp-hook.php on line 287 and defined in /home/ndotr/projects/tinhnghieporganic/wp-content/plugins/muahangnhanh/dinhhien_web79.php:136
+Stack trace:
+#0 /home/ndotr/projects/tinhnghieporganic/wp-includes/class-wp-hook.php(287): myphpmailer(Object(PHPMailer\PHPMailer\PHPMailer))
+#1 /home/ndotr/projects/tinhnghieporganic/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/ndotr/projects/tinhnghieporganic/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#3 /home/ndotr/projects/tinhnghieporganic/wp-includes/pluggable.php(494): do_action_ref_array('phpmailer_init', Array)
+#4 /home/ndotr/projects/tinhnghieporganic/wp-content/plugins/wpml-translation-management/classes/emails/report/class-wpml-tm-batch-report-email-process.php(44): wp_mail(Array, 'Job waiting for...', '<html xmlns="ht..
+
+2020-08-25T11:59:10+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to myphpmailer() must be an instance of PHPMailer, instance of WPMailSMTP\MailCatcherV6 given, called in /home/ndotr/projects/tinhnghieporganic/wp-includes/class-wp-hook.php on line 287 and defined in /home/ndotr/projects/tinhnghieporganic/wp-content/plugins/muahangnhanh/dinhhien_web79.php:136
+Stack trace:
+#0 /home/ndotr/projects/tinhnghieporganic/wp-includes/class-wp-hook.php(287): myphpmailer(Object(WPMailSMTP\MailCatcherV6))
+#1 /home/ndotr/projects/tinhnghieporganic/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/ndotr/projects/tinhnghieporganic/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#3 /home/ndotr/projects/tinhnghieporganic/wp-includes/pluggable.php(494): do_action_ref_array('phpmailer_init', Array)
+#4 /home/ndotr/projects/tinhnghieporganic/wp-includes/pluggable.php(2029): wp_mail(Array, '[T\xE1\xBB\x8Bnh Nghi\xE1\xBB\x87...', 'New user regist...', Array)
+#5 /home/ndotr/projects/tinhnghieporganic/wp-includes/user.php(2620
+
+2020-08-25T12:05:45+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to myphpmailer() must be an instance of PHPMailer, instance of WPMailSMTP\MailCatcherV6 given, called in /home/ndotr/projects/tinhnghieporganic/wp-includes/class-wp-hook.php on line 287 and defined in /home/ndotr/projects/tinhnghieporganic/wp-content/plugins/muahangnhanh/dinhhien_web79.php:136
+Stack trace:
+#0 /home/ndotr/projects/tinhnghieporganic/wp-includes/class-wp-hook.php(287): myphpmailer(Object(WPMailSMTP\MailCatcherV6))
+#1 /home/ndotr/projects/tinhnghieporganic/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/ndotr/projects/tinhnghieporganic/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#3 /home/ndotr/projects/tinhnghieporganic/wp-includes/pluggable.php(494): do_action_ref_array('phpmailer_init', Array)
+#4 /home/ndotr/projects/tinhnghieporganic/wp-includes/pluggable.php(2029): wp_mail(Array, '[T\xE1\xBB\x8Bnh Nghi\xE1\xBB\x87...', 'New user regist...', Array)
+#5 /home/ndotr/projects/tinhnghieporganic/wp-includes/user.php(2620
+

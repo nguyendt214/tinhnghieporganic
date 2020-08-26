@@ -1,0 +1,161 @@
+/*
+Theme Name: Fashion
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.0
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+.page-wrapper {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.nav-uppercase>li>a {
+	text-transform: none;
+}
+.k_delivery {
+	font-size: 11px !important;
+}
+.has-shadow>.col>.col-inner {
+	min-height: 340px;
+}
+.product-small .box-text .title-wrapper {
+	min-height: 40px;
+}
+.k-e-hot-deal {
+	padding-bottom: 0px;
+}
+.k-e-section-hd {
+	padding-left: 25px !important;
+	padding-right: 25px !important;
+}
+/* Tablet */
+.k-hd-mobile .section-content h2 {
+	margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 48em) {
+/*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+
+}
+/* Footer */
+.ship-payments{
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-moz-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-flex-wrap:wrap;
+    -ms-flex-wrap:wrap;
+    flex-wrap:wrap
+}
+.ship-payments li{
+    -webkit-box-align:center;
+    -webkit-align-items:center;
+    -moz-box-align:center;
+    -ms-flex-align:center;
+    align-items:center;
+    -webkit-box-pack:center;
+    -webkit-justify-content:center;
+    -moz-box-pack:center;
+    -ms-flex-pack:center;
+    justify-content:center;
+}
+.ship-payments-item{
+    margin-bottom:8px;
+    margin-right:8px;
+    width:55px;
+    height:29px;
+    background:url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/ac3a8f576164d64b185ada4409e3d5d2.png)
+}
+.visa{
+    background-position:70.37037037037037% 30.967741935483872%;
+    background-size:1376.3636363636363% 634.4827586206897%
+}
+.mastercard{
+    background-size:1376.3636363636363% 634.4827586206897%;
+    background-position:45.01424501424501% 6.451612903225806%
+}
+.jcb{
+    background-size:1376.3636363636363% 800%;
+    background-position:37.60683760683761% 36.64596273291925%;
+    width:55px; height:23px
+}
+.amex{
+    background-size:1514% 836.3636363636364%;
+    background-position:11.315417256011315% 6.172839506172839%;
+    width:55px; height:24px
+}
+.cod{
+    background-size:1514% 634.4827586206897%;
+    background-position:59.264497878359265% 55.483870967741936%;
+    width:50px; height:29px
+}
+.ghtk{
+    background-size:1376.3636363636363% 1022.2222222222222%;
+    background-position:19.515669515669515% 61.44578313253012%;
+    width:55px; height:18px
+}
+.ghn{
+    background-size:1376.3636363636363% 634.4827586206897%;
+    background-position:8.831908831908832% 65.80645161290323%
+}
+.viettel_post{
+    background-size:1376.3636363636363% 1022.2222222222222%;
+    background-position:59.686609686609685% 28.91566265060241%;
+    width:55px; height:18px
+}
+.vnpost{
+    background-size:1376.3636363636363% 681.4814814814815%;
+    background-position:95.86894586894587% 47.77070063694268%;
+    width:55px; height:27px
+}
+.jnt{
+    background-size:1376.3636363636363% 1150%;
+    background-position:74.35897435897436% 5.9523809523809526%;
+    width:55px; height:16px
+}
+.grap_express{
+    background-size:564.9253731343283% 634.4827586206897%;
+    background-position:26.003210272873194% 6.451612903225806%;
+    width:55px; height:15px
+}
+.now_ship{
+    background-size:850.561797752809% 262.85714285714283%;
+    background-position:84.4311377245509% 100%;
+    width:45px; height:29px
+}
+.ninja_van{
+    background-size:1261.6666666666667% 707.6923076923077%;
+    background-position:48.63701578192253% 37.34177215189873%;
+    width:50px; height:20px
+}
+.k-footer .col-inner ul li {
+	margin-left: 0px;
+}
+.k-footer ul.menu>li+li {
+	border: 0px;
+}
+.k-footer .widget-title {
+    letter-spacing: 0;
+    border-bottom: 1px solid rgba(0,0,0,.05);
+    font-weight: 600;
+	font-size: 17px;
+	text-transform: normal;
+	display: block;
+	margin-bottom: 12px;
+	padding-bottom: 16px;
+}
+.k-footer .certified-logos {
+	text-align: center;
+}
+.k-footer .certified-logos ul {
+	margin-bottom: 0px;
+}
+.k-footer .certified-logos ul li {
+	display: inline-block;
+	padding: 0 12px;
+}
+/* End footer */
